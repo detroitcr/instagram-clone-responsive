@@ -42,11 +42,7 @@ dependencies:
   uuid: ^3.0.6
   firebase_storage: ^10.3.6
   cloud_firestore: ^3.4.5
-  flutter_native_splash: ^2.2.8
 
-flutter_native_splash:
-  color: "#f5cb42"
-  image: assets/splash/splash.jpg
 dev_dependencies:
   flutter_test:
     sdk: flutter
