@@ -1,7 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:insta/Provider/user_provider.dart';
 import 'package:insta/Util/Color/custom_color.dart';
 import 'package:insta/View/Screen/Auth/Login/login_screen.dart';
@@ -22,7 +21,6 @@ void main() async {
   runApp(const MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -33,9 +31,7 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
           create: (_) => UserProvider(),
-          
         ),
-
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
